@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/kaist/DesignLab/20170699/2_SwitchControl/c_LED_CppProgram/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/home/kaist/DesignLab/20170699/2_SwitchControl/c_LED_CppProgram/include  -g   -o CMakeFiles/loopLight.dir/src/loop_light_control.cpp.o -c /home/kaist/DesignLab/20170699/2_SwitchControl/c_LED_CppProgram/src/loop_light_control.cpp",
+  "file": "/home/kaist/DesignLab/20170699/2_SwitchControl/c_LED_CppProgram/src/loop_light_control.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20170699/2_SwitchControl/c_LED_CppProgram/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/home/kaist/DesignLab/20170699/2_SwitchControl/c_LED_CppProgram/include  -g   -o CMakeFiles/loopLight.dir/src/gpio_control.cpp.o -c /home/kaist/DesignLab/20170699/2_SwitchControl/c_LED_CppProgram/src/gpio_control.cpp",
+  "file": "/home/kaist/DesignLab/20170699/2_SwitchControl/c_LED_CppProgram/src/gpio_control.cpp"
+}
+]
