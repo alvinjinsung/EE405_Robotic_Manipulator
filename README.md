@@ -28,5 +28,4 @@ Integrating all the previous labs, built a robot manipulation system + teleopera
 3) UI, Teleoperation: The user commands where to pick and place (UDP, CLI interface)
 4) Teaching, Trajectory generation, Control: BBB can automatically execute predefined motions (interpolation, UDP, state machine, control)
 
-   
-6) 
+
