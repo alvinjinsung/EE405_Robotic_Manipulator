@@ -1,0 +1,29 @@
+cmake .. && make motor_control -j 24 && scp motor_control debian@192.168.7.2:/home/debian/release
+cmake .. && make motor_control -j 24
+cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=toolchain.arm.cmake .. && make motor_control -j 24
+
+scp motor_control debian@192.168.7.2:/home/debian/release
+
+/usr/lib
+
+On PC (Ubuntu)
+sudo scp libdxl_sbc_cpp.so debian@192.168.7.2:/home/debian
+
+On Beagle Bone Black (Debian)
+sudo cp ~/libdxl_sbc_cpp.so /usr/lib
+
+sudo rm /usr/lib/libdxl_sbc_cpp.so ~/libdxl_sbc_cpp.so
+
+cat /sys/bus/usb-serial/devices/ttyUSB0/latency_timer
+echo 1 | sudo tee /sys/bus/usb-serial/devices/ttyUSB0/latency_timer
+
+On PC.
+sudo nano /etc/exports
+/home/irs07/EE405_MotorControl/build 192.168.7.2(rw,sync,no_root_squash,no_subtree_check)
+sudo exportfs -a
+sudo /etc/init.d/nfs-kernel-server start
+
+On Debian PC
+mkdir ~/nfs_client
+cd ~
+sudo mount 192.168.7.1:/home/irs07/EE405_MotorControl/build ~/nfs_client

@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libEE405_SI_P1.a"
+)

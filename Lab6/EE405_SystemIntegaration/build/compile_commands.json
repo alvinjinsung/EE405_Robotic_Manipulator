@@ -1,0 +1,72 @@
+[
+{
+  "directory": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/dynamixel_sdk -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/system_integration_own.dir/src/system_integration_own.cpp.o -c /home/kaist/DesignLab/20170699/EE405_SystemIntegaration/src/system_integration_own.cpp",
+  "file": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/src/system_integration_own.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/dynamixel_sdk -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/modified_direct_teaching.dir/src/modified_direct_teaching.cpp.o -c /home/kaist/DesignLab/20170699/EE405_SystemIntegaration/src/modified_direct_teaching.cpp",
+  "file": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/src/modified_direct_teaching.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/dynamixel_sdk -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/EE405_SI_P1.dir/include/Controller/ArticulatedSystem.cpp.o -c /home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/Controller/ArticulatedSystem.cpp",
+  "file": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/Controller/ArticulatedSystem.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/dynamixel_sdk -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/EE405_SI_P1.dir/include/Common/Kinematics.cpp.o -c /home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/Common/Kinematics.cpp",
+  "file": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/Common/Kinematics.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/dynamixel_sdk -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/EE405_SI_P1.dir/include/Common/gpio_control.cpp.o -c /home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/Common/gpio_control.cpp",
+  "file": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/Common/gpio_control.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/dynamixel_sdk -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/EE405_SI_P1.dir/include/FileIO/MatrixFileIO.cpp.o -c /home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/FileIO/MatrixFileIO.cpp",
+  "file": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/FileIO/MatrixFileIO.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/dynamixel_sdk -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/EE405_SI_P1.dir/include/Common/DirectTeaching.cpp.o -c /home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/Common/DirectTeaching.cpp",
+  "file": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/Common/DirectTeaching.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/dynamixel_sdk -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/FSM_OWN.dir/include/FiniteStateMachine/fsm_own.cpp.o -c /home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/FiniteStateMachine/fsm_own.cpp",
+  "file": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/FiniteStateMachine/fsm_own.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/dynamixel_sdk -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/EE405_SI_P2.dir/include/Controller/ArticulatedSystem.cpp.o -c /home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/Controller/ArticulatedSystem.cpp",
+  "file": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/Controller/ArticulatedSystem.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/dynamixel_sdk -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/EE405_SI_P2.dir/include/Common/Kinematics.cpp.o -c /home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/Common/Kinematics.cpp",
+  "file": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/Common/Kinematics.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/dynamixel_sdk -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/EE405_SI_P2.dir/include/Common/gpio_control.cpp.o -c /home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/Common/gpio_control.cpp",
+  "file": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/Common/gpio_control.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/dynamixel_sdk -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/teleoperation_udp.dir/src/teleoperation_udp.cpp.o -c /home/kaist/DesignLab/20170699/EE405_SystemIntegaration/src/teleoperation_udp.cpp",
+  "file": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/src/teleoperation_udp.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/dynamixel_sdk -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/FSM.dir/include/FiniteStateMachine/fsm.cpp.o -c /home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/FiniteStateMachine/fsm.cpp",
+  "file": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/FiniteStateMachine/fsm.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/include/dynamixel_sdk -I/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/system_integration.dir/src/system_integration.cpp.o -c /home/kaist/DesignLab/20170699/EE405_SystemIntegaration/src/system_integration.cpp",
+  "file": "/home/kaist/DesignLab/20170699/EE405_SystemIntegaration/src/system_integration.cpp"
+}
+]

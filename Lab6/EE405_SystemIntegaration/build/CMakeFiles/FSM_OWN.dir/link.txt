@@ -1,0 +1,2 @@
+/usr/bin/ar qc libFSM_OWN.a  CMakeFiles/FSM_OWN.dir/include/FiniteStateMachine/fsm_own.cpp.o
+/usr/bin/ranlib libFSM_OWN.a

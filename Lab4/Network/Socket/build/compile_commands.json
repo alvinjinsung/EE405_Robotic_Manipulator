@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/kaist/DesignLab/20170699/Network/Socket/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-gcc   -g   -std=c++17 -o CMakeFiles/capture.dir/src/capture.c.o   -c /home/kaist/DesignLab/20170699/Network/Socket/src/capture.c",
+  "file": "/home/kaist/DesignLab/20170699/Network/Socket/src/capture.c"
+}
+]

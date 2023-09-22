@@ -1,0 +1,1 @@
+/usr/bin/arm-linux-gnueabihf-g++  -g  -rdynamic CMakeFiles/gripper_test.dir/src/gripper_test.cpp.o CMakeFiles/gripper_test.dir/src/gripper_control.cpp.o CMakeFiles/gripper_test.dir/src/gpio_control.cpp.o  -o gripper_test 

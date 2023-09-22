@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -rdynamic CMakeFiles/RemoteController_PC.dir/src/RemoteController_PC_Skeleton.cpp.o CMakeFiles/RemoteController_PC.dir/src/getche.cpp.o  -o RemoteController_PC 

@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/kaist/DesignLab/20170699/2_SwitchControl/d_GripperControl/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/home/kaist/DesignLab/20170699/2_SwitchControl/d_GripperControl/include  -g   -o CMakeFiles/gripper_test.dir/src/gripper_test.cpp.o -c /home/kaist/DesignLab/20170699/2_SwitchControl/d_GripperControl/src/gripper_test.cpp",
+  "file": "/home/kaist/DesignLab/20170699/2_SwitchControl/d_GripperControl/src/gripper_test.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20170699/2_SwitchControl/d_GripperControl/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/home/kaist/DesignLab/20170699/2_SwitchControl/d_GripperControl/include  -g   -o CMakeFiles/gripper_test.dir/src/gripper_control.cpp.o -c /home/kaist/DesignLab/20170699/2_SwitchControl/d_GripperControl/src/gripper_control.cpp",
+  "file": "/home/kaist/DesignLab/20170699/2_SwitchControl/d_GripperControl/src/gripper_control.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20170699/2_SwitchControl/d_GripperControl/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/home/kaist/DesignLab/20170699/2_SwitchControl/d_GripperControl/include  -g   -o CMakeFiles/gripper_test.dir/src/gpio_control.cpp.o -c /home/kaist/DesignLab/20170699/2_SwitchControl/d_GripperControl/src/gpio_control.cpp",
+  "file": "/home/kaist/DesignLab/20170699/2_SwitchControl/d_GripperControl/src/gpio_control.cpp"
+}
+]

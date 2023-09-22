@@ -1,0 +1,2 @@
+/usr/bin/ar qc libEE405_robot_manipulator.a  CMakeFiles/EE405_robot_manipulator.dir/include/Controller/ArticulatedSystem.cpp.o CMakeFiles/EE405_robot_manipulator.dir/include/FileIO/MatrixFileIO.cpp.o CMakeFiles/EE405_robot_manipulator.dir/include/Common/LowPassFilter.cpp.o CMakeFiles/EE405_robot_manipulator.dir/include/Common/NumDiff.cpp.o
+/usr/bin/ranlib libEE405_robot_manipulator.a

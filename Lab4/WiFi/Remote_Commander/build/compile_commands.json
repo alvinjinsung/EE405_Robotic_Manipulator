@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/kaist/DesignLab/20170699/WiFi/Remote_Commander/build",
+  "command": "/usr/bin/g++   -I/home/kaist/DesignLab/20170699/WiFi/Remote_Commander/include  -g   -std=c++17 -o CMakeFiles/RemoteController_PC.dir/src/RemoteController_PC_Skeleton.cpp.o -c /home/kaist/DesignLab/20170699/WiFi/Remote_Commander/src/RemoteController_PC_Skeleton.cpp",
+  "file": "/home/kaist/DesignLab/20170699/WiFi/Remote_Commander/src/RemoteController_PC_Skeleton.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20170699/WiFi/Remote_Commander/build",
+  "command": "/usr/bin/g++   -I/home/kaist/DesignLab/20170699/WiFi/Remote_Commander/include  -g   -std=c++17 -o CMakeFiles/RemoteController_PC.dir/src/getche.cpp.o -c /home/kaist/DesignLab/20170699/WiFi/Remote_Commander/src/getche.cpp",
+  "file": "/home/kaist/DesignLab/20170699/WiFi/Remote_Commander/src/getche.cpp"
+}
+]

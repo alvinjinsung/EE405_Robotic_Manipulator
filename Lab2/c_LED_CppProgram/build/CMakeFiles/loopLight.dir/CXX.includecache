@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kaist/DesignLab/20170699/2_SwitchControl/c_LED_CppProgram/include/gpio_control.hpp
+
+/home/kaist/DesignLab/20170699/2_SwitchControl/c_LED_CppProgram/src/gpio_control.cpp
+../include/gpio_control.hpp
+/home/kaist/DesignLab/20170699/2_SwitchControl/c_LED_CppProgram/include/gpio_control.hpp
+stdio.h
+-
+string.h
+-
+fcntl.h
+-
+unistd.h
+-
+
+/home/kaist/DesignLab/20170699/2_SwitchControl/c_LED_CppProgram/src/loop_light_control.cpp
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/time.h
+-
+../include/gpio_control.hpp
+/home/kaist/DesignLab/20170699/2_SwitchControl/c_LED_CppProgram/include/gpio_control.hpp
+

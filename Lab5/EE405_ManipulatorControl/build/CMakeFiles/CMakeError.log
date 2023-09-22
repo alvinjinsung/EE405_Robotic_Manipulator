@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/kaist/DesignLab/20170699/EE405_ManipulatorControl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_117d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_117d5.dir/build.make CMakeFiles/cmTC_117d5.dir/build
+make[1]: Entering directory '/home/kaist/DesignLab/20170699/EE405_ManipulatorControl/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_117d5.dir/CheckSymbolExists.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++     -o CMakeFiles/cmTC_117d5.dir/CheckSymbolExists.cxx.o -c /home/kaist/DesignLab/20170699/EE405_ManipulatorControl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_117d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_117d5.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++       CMakeFiles/cmTC_117d5.dir/CheckSymbolExists.cxx.o  -o cmTC_117d5 
+CMakeFiles/cmTC_117d5.dir/CheckSymbolExists.cxx.o: In function `main':
+CheckSymbolExists.cxx:(.text+0x2c): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_117d5.dir/build.make:97: recipe for target 'cmTC_117d5' failed
+make[1]: *** [cmTC_117d5] Error 1
+make[1]: Leaving directory '/home/kaist/DesignLab/20170699/EE405_ManipulatorControl/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_117d5/fast' failed
+make: *** [cmTC_117d5/fast] Error 2
+
+File /home/kaist/DesignLab/20170699/EE405_ManipulatorControl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/kaist/DesignLab/20170699/EE405_ManipulatorControl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55058/fast"
+/usr/bin/make -f CMakeFiles/cmTC_55058.dir/build.make CMakeFiles/cmTC_55058.dir/build
+make[1]: Entering directory '/home/kaist/DesignLab/20170699/EE405_ManipulatorControl/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_55058.dir/CheckFunctionExists.cxx.o
+/usr/bin/arm-linux-gnueabihf-g++    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_55058.dir/CheckFunctionExists.cxx.o -c /home/kaist/DesignLab/20170699/EE405_ManipulatorControl/build/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_55058
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55058.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-g++   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_55058.dir/CheckFunctionExists.cxx.o  -o cmTC_55058 -lpthreads 
+/usr/lib/gcc-cross/arm-linux-gnueabihf/7/../../../../arm-linux-gnueabihf/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_55058.dir/build.make:97: recipe for target 'cmTC_55058' failed
+make[1]: *** [cmTC_55058] Error 1
+make[1]: Leaving directory '/home/kaist/DesignLab/20170699/EE405_ManipulatorControl/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_55058/fast' failed
+make: *** [cmTC_55058/fast] Error 2
+
+

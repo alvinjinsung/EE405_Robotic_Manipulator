@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kaist/DesignLab/20170699/2_SwitchControl/d_GripperControl/include/gpio_control.hpp
+
+/home/kaist/DesignLab/20170699/2_SwitchControl/d_GripperControl/include/gripper_control.hpp
+
+/home/kaist/DesignLab/20170699/2_SwitchControl/d_GripperControl/src/gpio_control.cpp
+../include/gpio_control.hpp
+/home/kaist/DesignLab/20170699/2_SwitchControl/d_GripperControl/include/gpio_control.hpp
+stdio.h
+-
+string.h
+-
+fcntl.h
+-
+unistd.h
+-
+
+/home/kaist/DesignLab/20170699/2_SwitchControl/d_GripperControl/src/gripper_control.cpp
+stdio.h
+-
+string.h
+-
+iostream
+-
+../include/gpio_control.hpp
+/home/kaist/DesignLab/20170699/2_SwitchControl/d_GripperControl/include/gpio_control.hpp
+
+/home/kaist/DesignLab/20170699/2_SwitchControl/d_GripperControl/src/gripper_test.cpp
+stdio.h
+-
+string.h
+-
+chrono
+-
+../include/gpio_control.hpp
+/home/kaist/DesignLab/20170699/2_SwitchControl/d_GripperControl/include/gpio_control.hpp
+../include/gripper_control.hpp
+/home/kaist/DesignLab/20170699/2_SwitchControl/d_GripperControl/include/gripper_control.hpp
+

@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/kaist/DesignLab/20170699/EE405_MotorControl/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20170699/EE405_MotorControl/include -I/home/kaist/DesignLab/20170699/EE405_MotorControl/include/dynamixel_sdk -I/home/kaist/DesignLab/20170699/EE405_MotorControl/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/EE405_robot_manipulator.dir/include/Controller/ArticulatedSystem.cpp.o -c /home/kaist/DesignLab/20170699/EE405_MotorControl/include/Controller/ArticulatedSystem.cpp",
+  "file": "/home/kaist/DesignLab/20170699/EE405_MotorControl/include/Controller/ArticulatedSystem.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20170699/EE405_MotorControl/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20170699/EE405_MotorControl/include -I/home/kaist/DesignLab/20170699/EE405_MotorControl/include/dynamixel_sdk -I/home/kaist/DesignLab/20170699/EE405_MotorControl/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/EE405_robot_manipulator.dir/include/FileIO/MatrixFileIO.cpp.o -c /home/kaist/DesignLab/20170699/EE405_MotorControl/include/FileIO/MatrixFileIO.cpp",
+  "file": "/home/kaist/DesignLab/20170699/EE405_MotorControl/include/FileIO/MatrixFileIO.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20170699/EE405_MotorControl/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20170699/EE405_MotorControl/include -I/home/kaist/DesignLab/20170699/EE405_MotorControl/include/dynamixel_sdk -I/home/kaist/DesignLab/20170699/EE405_MotorControl/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/EE405_robot_manipulator.dir/include/Common/LowPassFilter.cpp.o -c /home/kaist/DesignLab/20170699/EE405_MotorControl/include/Common/LowPassFilter.cpp",
+  "file": "/home/kaist/DesignLab/20170699/EE405_MotorControl/include/Common/LowPassFilter.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20170699/EE405_MotorControl/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20170699/EE405_MotorControl/include -I/home/kaist/DesignLab/20170699/EE405_MotorControl/include/dynamixel_sdk -I/home/kaist/DesignLab/20170699/EE405_MotorControl/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/EE405_robot_manipulator.dir/include/Common/NumDiff.cpp.o -c /home/kaist/DesignLab/20170699/EE405_MotorControl/include/Common/NumDiff.cpp",
+  "file": "/home/kaist/DesignLab/20170699/EE405_MotorControl/include/Common/NumDiff.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20170699/EE405_MotorControl/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20170699/EE405_MotorControl/include -I/home/kaist/DesignLab/20170699/EE405_MotorControl/include/dynamixel_sdk -I/home/kaist/DesignLab/20170699/EE405_MotorControl/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/motor_control.dir/src/motor_control.cpp.o -c /home/kaist/DesignLab/20170699/EE405_MotorControl/src/motor_control.cpp",
+  "file": "/home/kaist/DesignLab/20170699/EE405_MotorControl/src/motor_control.cpp"
+}
+]

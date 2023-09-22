@@ -1,0 +1,2 @@
+/usr/bin/ar qc libEE405_SI_P2.a  CMakeFiles/EE405_SI_P2.dir/include/Controller/ArticulatedSystem.cpp.o CMakeFiles/EE405_SI_P2.dir/include/Common/Kinematics.cpp.o CMakeFiles/EE405_SI_P2.dir/include/Common/gpio_control.cpp.o
+/usr/bin/ranlib libEE405_SI_P2.a

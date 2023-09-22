@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            // "name": "Linux",
+            // "includePath": [
+            //     "${workspaceFolder}/**",
+            //     "/usr/include/eigen3/",
+            //     "include",
+            //     "gen3/include",
+            //     "/opt/ros/noetic/include"
+            // ],
+            // "defines": [],
+            // "compilerPath": "/usr/bin/gcc",
+            // "cStandard": "gnu17",
+            // "cppStandard": "gnu++14",
+            // "intelliSenseMode": "linux-gcc-x64",
+            "name": "CMake",
+            "compileCommands": "${config:cmake.buildDirectory}/compile_commands.json",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
